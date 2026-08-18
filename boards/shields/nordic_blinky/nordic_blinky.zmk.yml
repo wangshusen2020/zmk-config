@@ -1,0 +1,7 @@
+file_format: "1"
+id: nordic_blinky
+name: Nordic_Blinky
+type: shield
+requires: [pro_micro]
+features:
+  - ble

@@ -1,0 +1,4 @@
+config SHIELD_NORDIC_BLINKY
+    bool
+    default y
+    select PRO_MICRO
