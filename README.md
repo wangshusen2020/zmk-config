@@ -23,3 +23,25 @@ GitHub Actions 自动构建，输出:
 
 1. 双击复位键进入 bootloader
 2. 拖入 .uf2 文件
+
+## 文件结构
+
+```
+zmk-config/
+├── boards/
+│   ├── Kconfig
+│   └── shields/
+│       ├── Kconfig
+│       └── nordic_blinky/
+│           ├── Kconfig.shield
+│           ├── nordic_blinky.conf
+│           └── nordic_blinky.zmk.yml
+├── config/
+│   ├── west.yml
+│   ├── nordic_blinky.conf
+│   └── nordic_blinky.keymap
+├── zephyr/
+│   └── module.yml
+├── build.yaml
+└── README.md
+```

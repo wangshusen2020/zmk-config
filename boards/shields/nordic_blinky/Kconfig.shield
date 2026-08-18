@@ -1,4 +1,9 @@
+# Nordic_Blinky Shield Kconfig
+
+# Shield identifier - must match directory name (nordic_blinky -> SHIELD_NORDIC_BLINKY)
 config SHIELD_NORDIC_BLINKY
-    bool
+    bool "Nordic_Blinky LE Test Fixture"
     default y
-    select PRO_MICRO
+    help
+      Nordic_Blinky is a BLE test fixture that emits advertising packets
+      for LE test purposes.
